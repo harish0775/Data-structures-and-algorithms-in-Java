@@ -5,7 +5,7 @@ public class person {
     private int age;
 
     public person(){
-       System.out.println("I am default constructor");
+       System.out.println("I am a default constructor");
     }
     public  person(int age){
         System.out.println("I am one parameter conastructor");
