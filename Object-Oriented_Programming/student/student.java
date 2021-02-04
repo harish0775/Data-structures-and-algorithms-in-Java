@@ -1,30 +1,30 @@
 package student;
 
-public class student {
-    public int student;
-    public double Total;
-    public char Grade;
-    public String Stringtype,name;
-
-   
-    public String name(){
-       String MyName = name;
-        return MyName;
+public class student
+{
+    public int roll;
+    public String name;
+    public String course;
+    
+	public int m1,m2,m3;
+    
+    public int total()
+    {
+        return m1+m2+m3;
     }
-    public int RollNo(){
-        int No = 186514628;
-        return No;
+    public float average()
+    {
+        return (float)total()/3;
     }
-    public String Program(){
-        Stringtype  = "BCA";
-        return Stringtype;
+    public char grade()
+    {
+        if(average()>=60)
+            return 'A';
+        else
+            return 'B';
     }
-    public double Mark(){
-        double marks = 98.9;
-        return marks; 
-    }
-    public char Grade(){
-      Grade = 'A';
-      return Grade;
+    public String toString()
+    {
+        return "Roll No:"+roll+"\n"+"Name:"+name+"\n"+"Course:"+course+"\n";
     }
 }
