@@ -1,0 +1,78 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        // {
+        //     "type": "java",
+        //     "name": "Launch main",
+        //     "request": "launch",
+        //     "mainClass": "Constuctor.main",
+        //     "projectName": "Master_Branch_Data_Structure_JAVA_bfc7b6e5"
+        // },
+        // {
+        //     "type": "java",
+        //     "name": "Launch Myframe",
+        //     "request": "launch",
+        //     "mainClass": "animation.Myframe",
+        //     "projectName": "Master_Branch_Data_Structure_JAVA_bfc7b6e5"
+        // },
+        // {
+        //     "type": "java",
+        //     "name": "Launch TextProp",
+        //     "request": "launch",
+        //     "mainClass": "animation.TextProp",
+        //     "projectName": "Master_Branch_Data_Structure_JAVA_bfc7b6e5"
+        // },
+        // {
+        //     "type": "java",
+        //     "name": "Launch Main",
+        //     "request": "launch",
+        //     "mainClass": "circle.Main",
+        //     "projectName": "Master_Branch_Data_Structure_JAVA_bfc7b6e5"
+        // },
+        // {
+        //     "type": "java",
+        //     "name": "Launch main(1)",
+        //     "request": "launch",
+        //     "mainClass": "getset.main",
+        //     "projectName": "Master_Branch_Data_Structure_JAVA_bfc7b6e5"
+        // },
+        // {
+        //     "type": "java",
+        //     "name": "Launch InheritConst",
+        //     "request": "launch",
+        //     "mainClass": "perimetrise_constructor.InheritConst",
+        //     "projectName": "Master_Branch_Data_Structure_JAVA_bfc7b6e5"
+        // },
+        // {
+        //     "type": "java",
+        //     "name": "Launch main(2)",
+        //     "request": "launch",
+        //     "mainClass": "perimetrise_constructor.main",
+        //     "projectName": "Master_Branch_Data_Structure_JAVA_bfc7b6e5"
+        // },
+        // {
+        //     "type": "java",
+        //     "name": "Launch main(3)",
+        //     "request": "launch",
+        //     "mainClass": "student.main",
+        //     "projectName": "Master_Branch_Data_Structure_JAVA_bfc7b6e5"
+        // },
+        {
+            "type": "java",
+            "name": "Launch main(4)",
+            "request": "launch",
+            "vmArgs": "--module-path /home/harish/Downloads/openjfx-11.0.2_linux-x64_bin-sdk/javafx-sdk-11.0.2/lib --add-modules javafx.swing,javafx.graphics,javafx.fxml,javafx.media,javafx.controls",
+            "mainClass": "subject.main",
+            "projectName": "Master_Branch_Data_Structure_JAVA_bfc7b6e5"
+        }
+    ]
+}

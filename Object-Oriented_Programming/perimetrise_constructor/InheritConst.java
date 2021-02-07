@@ -13,9 +13,11 @@ class Parent
 
 class Child extends Parent
 {
-    public Child()
+    public String Child()
     {
+        String childName = "Ram";
         System.out.println("Child Constructor");
+        return childName;
     }
 }
 
@@ -25,13 +27,19 @@ class GrandChild extends Child
     {
         System.out.println("Grand Child Constructor");
     }
+
+    public String parent() {
+        return null;
+    }
 }
 public class InheritConst 
 {
 
     public static void main(String[] args) 
     {
-        GrandChild c=new GrandChild();        
+
+        GrandChild c =new GrandChild();   
+             System.out.println("grandchil:"+c.Child());
     }
     
 }

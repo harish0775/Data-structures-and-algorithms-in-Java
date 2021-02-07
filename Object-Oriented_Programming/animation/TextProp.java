@@ -10,7 +10,7 @@ import javafx.scene.layout.*;
 import javafx.scene.text.*;
 import javafx.scene.paint.*;
 
-public class App extends Application implements EventHandler<ActionEvent>
+public class TextProp extends Application implements EventHandler<ActionEvent>
 {
     Text t;
     RadioButton r1,r2,r3;
