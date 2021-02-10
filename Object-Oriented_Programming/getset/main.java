@@ -7,7 +7,7 @@ public class main {
         Scanner s = new Scanner(System.in);
         int br = s.nextInt();
         int ln = s.nextInt();
-        Rectangle r1 = new Rectangle();
+        Rectangle r1 = new Rectangle(); //rectangle
         r1.setbreath(br);
         r1.setlength(ln);
         System.out.println("Area:"+r1.area());

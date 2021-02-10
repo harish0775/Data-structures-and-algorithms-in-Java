@@ -6,66 +6,17 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch InsertionSort",
+            "request": "launch",
+            "mainClass": "InsertionSort",
+            "projectName": "Master_Branch_Data_Structure_JAVA_bfc7b6e5"
+        },
+        {
+            "type": "java",
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"
         },
-        // {
-        //     "type": "java",
-        //     "name": "Launch main",
-        //     "request": "launch",
-        //     "mainClass": "Constuctor.main",
-        //     "projectName": "Master_Branch_Data_Structure_JAVA_bfc7b6e5"
-        // },
-        // {
-        //     "type": "java",
-        //     "name": "Launch Myframe",
-        //     "request": "launch",
-        //     "mainClass": "animation.Myframe",
-        //     "projectName": "Master_Branch_Data_Structure_JAVA_bfc7b6e5"
-        // },
-        // {
-        //     "type": "java",
-        //     "name": "Launch TextProp",
-        //     "request": "launch",
-        //     "mainClass": "animation.TextProp",
-        //     "projectName": "Master_Branch_Data_Structure_JAVA_bfc7b6e5"
-        // },
-        // {
-        //     "type": "java",
-        //     "name": "Launch Main",
-        //     "request": "launch",
-        //     "mainClass": "circle.Main",
-        //     "projectName": "Master_Branch_Data_Structure_JAVA_bfc7b6e5"
-        // },
-        // {
-        //     "type": "java",
-        //     "name": "Launch main(1)",
-        //     "request": "launch",
-        //     "mainClass": "getset.main",
-        //     "projectName": "Master_Branch_Data_Structure_JAVA_bfc7b6e5"
-        // },
-        // {
-        //     "type": "java",
-        //     "name": "Launch InheritConst",
-        //     "request": "launch",
-        //     "mainClass": "perimetrise_constructor.InheritConst",
-        //     "projectName": "Master_Branch_Data_Structure_JAVA_bfc7b6e5"
-        // },
-        // {
-        //     "type": "java",
-        //     "name": "Launch main(2)",
-        //     "request": "launch",
-        //     "mainClass": "perimetrise_constructor.main",
-        //     "projectName": "Master_Branch_Data_Structure_JAVA_bfc7b6e5"
-        // },
-        // {
-        //     "type": "java",
-        //     "name": "Launch main(3)",
-        //     "request": "launch",
-        //     "mainClass": "student.main",
-        //     "projectName": "Master_Branch_Data_Structure_JAVA_bfc7b6e5"
-        // },
         {
             "type": "java",
             "name": "Launch main(4)",
