@@ -1,6 +1,6 @@
 package Master_Branch_Data_Structure_JAVA.Practice;
 public class Hello {
-  static int plusMethodInt(int x, int y) {
+  static int plusMethodInt(int x, int y) {//plush method
     return x + y;
   }
   
