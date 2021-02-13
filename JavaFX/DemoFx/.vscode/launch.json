@@ -16,7 +16,7 @@
             "name": "Launch App",
             "request": "launch",
             "vmArgs": "--module-path /home/harish/Downloads/openjfx-11.0.2_linux-x64_bin-sdk/javafx-sdk-11.0.2 --add-modules javafx.controls,javafx.fxml",
-            "mainClass": "animation.App",
+            "mainClass": "animation.App", // main class
             "projectName": "DemoFx_6babc066"
         }
     ]
