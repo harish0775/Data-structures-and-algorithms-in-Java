@@ -55,7 +55,7 @@ public class App extends Application
         
         VBox vb=new VBox();
         vb.setAlignment(Pos.TOP_CENTER);
-        vb.getChildren().addAll(ta,sl,dp,cp,b);
+        vb.getChildren().addAll(ta,sl,dp,cp,b); 
         Scene sc=new Scene(vb,500,500);
         stage.setScene(sc);
         stage.show();
