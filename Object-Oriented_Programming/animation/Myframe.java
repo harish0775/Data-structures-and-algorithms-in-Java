@@ -4,7 +4,7 @@ import java.awt.*;
 class MyFrame extends Frame implements Runnable
 {
     /**
-     *
+     * 
      */
     private static final long serialVersionUID = 1L;
     int x, y, tx, ty;
