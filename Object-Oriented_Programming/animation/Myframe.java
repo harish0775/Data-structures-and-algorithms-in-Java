@@ -11,7 +11,7 @@ class MyFrame extends Frame implements Runnable
     
     MyFrame()
     {
-        x=100;
+        x=100; 
         y=100;
         tx=ty=1;
         
