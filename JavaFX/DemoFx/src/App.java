@@ -9,7 +9,7 @@ import javafx.scene.layout.*;
 import javafx.scene.text.Font;
 
 public class App extends Application
-{
+{ 
     public void start(Stage stage)throws Exception
     {
         TextArea ta=new TextArea();
@@ -26,6 +26,7 @@ public class App extends Application
         DatePicker dp=new DatePicker();
         dp.setShowWeekNumbers(true);
         dp.setOnAction(e->ta.setText("Date :"+dp.getValue()+"\n"+ta.getText()));
+
         
         ColorPicker cp=new ColorPicker();
         cp.setOnAction(e->{ 
@@ -55,8 +56,6 @@ public class App extends Application
         VBox vb=new VBox();
         vb.setAlignment(Pos.TOP_CENTER);
         vb.getChildren().addAll(ta,sl,dp,cp,b);
-        
-        
         Scene sc=new Scene(vb,500,500);
         stage.setScene(sc);
         stage.show();
