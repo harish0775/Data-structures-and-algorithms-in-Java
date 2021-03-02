@@ -58,8 +58,8 @@ public class App extends Application
         vb.getChildren().addAll(ta,sl,dp,cp,b); 
         Scene sc=new Scene(vb,500,500);
         stage.setScene(sc);
-        stage.show();
-    }
+        stageshow();
+    } 
     public static void main(String[] args) 
     {
         launch(args);
