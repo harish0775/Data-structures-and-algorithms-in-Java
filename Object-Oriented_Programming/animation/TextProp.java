@@ -18,7 +18,7 @@ public class TextProp extends Application implements EventHandler<ActionEvent>
     ChoiceBox<Integer> cb;
     
     public void start(Stage stage) throws Exception
-    {
+    { 
         t=new Text("Hello World");
         HBox hb1=new HBox();
         hb1.getChildren().add(t);
