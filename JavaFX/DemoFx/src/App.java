@@ -14,7 +14,7 @@ public class App extends Application
     {
         TextArea ta=new TextArea();
         ta.setPrefColumnCount(100);
-        ta.setPrefRowCount(20);
+        ta.setPrefRowCount(20); 
         
         Slider sl=new Slider(10,50,10);
         sl.setMajorTickUnit(5);
