@@ -27,7 +27,7 @@ public class App extends Application
         dp.setShowWeekNumbers(true);
         dp.setOnAction(e->ta.setText("Date :"+dp.getValue()+"\n"+ta.getText()));
 
-        
+         
         ColorPicker cp=new ColorPicker();
         cp.setOnAction(e->{ 
                 ta.setStyle("-fx-text-fill:#"+cp.getValue().toString().substring(2,8));
