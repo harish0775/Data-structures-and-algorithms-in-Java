@@ -8,7 +8,7 @@ import javafx.scene.*;
 import javafx.scene.control.*; 
 import javafx.scene.layout.*;
 import javafx.scene.text.*; 
-import javafx.scene.paint.*;
+import javafx.scene.paint.*; 
  
 public class TextProp extends Application implements EventHandler<ActionEvent>
 {
