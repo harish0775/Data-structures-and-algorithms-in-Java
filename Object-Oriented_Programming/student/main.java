@@ -3,7 +3,7 @@ package student;
 import java.util.Scanner; // import the Scanner class 
 
 public class main{
-
+  
         public static void main(String[] args) 
         {
                
