@@ -58,7 +58,7 @@ public class TextProp extends Application implements EventHandler<ActionEvent>
         c3.setOnAction(this);
         cb.setOnAction(this);
         
-        
+            
         
         Scene sc=new Scene(vb,500,500);
         stage.setScene(sc);
