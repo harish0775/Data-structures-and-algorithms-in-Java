@@ -8,7 +8,7 @@ import javafx.scene.control.*;
 import javafx.scene.layout.*;
 import javafx.scene.text.Font;
 
-public class App extends Application
+public class App extends Application//add file
 { 
     public void start(Stage stage)throws Exception
     {
