@@ -13,7 +13,7 @@ public class App extends Application
     public void start(Stage stage)throws Exception
     {
         TextArea ta=new TextArea();
-        ta.setPrefColumnCount(100);
+        ta.setPrefColumnCount(100);//add file
         ta.setPrefRowCount(20); 
         
         Slider sl=new Slider(10,50,10);
