@@ -2,7 +2,8 @@ import java.io.FileInputStream;
 import java.util.Scanner;
 import javafx.application.*;
 import javafx.geometry.Pos;
-import javafx.stage.*;
+import javafx.stage.*; // new file
+
 import javafx.scene.*;
 import javafx.scene.control.*;
 import javafx.scene.layout.*;
