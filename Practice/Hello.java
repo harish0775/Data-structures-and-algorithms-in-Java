@@ -6,7 +6,7 @@ public class Hello {
   
   static double plusMethodDouble(double x, double y) {
     return x + y;
-  } 
+  }  
   
   public static void main(String[] args) {
     int myNum1 = plusMethodInt(8, 34);
